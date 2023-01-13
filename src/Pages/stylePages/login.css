@@ -1,0 +1,63 @@
+.logContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1600px;
+  height: 820px;
+  padding-top: 80px;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+.logContainer .logInContainer {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.logContainer .logInContainer h1 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Syne", sans-serif;
+  margin-bottom: 42px;
+}
+.logContainer .logInContainer span {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.logContainer .logInContainer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 25px;
+}
+.logContainer .logInContainer div input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  margin-bottom: 25px;
+}
+.logContainer .logInContainer button {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  color: #F4F7F5;
+  cursor: pointer;
+  background-color: #F3593F;
+}

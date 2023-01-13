@@ -1,0 +1,153 @@
+.footerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 455px;
+}
+.footerContainer h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #F4F7F5;
+  text-align: left;
+  margin-bottom: 18px;
+  padding-top: 65px;
+}
+.footerContainer .leftFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 65%;
+  height: 100%;
+  background-color: #1F1F1F;
+}
+.footerContainer .leftFooter .Menu :nth-last-child(2) {
+  margin-bottom: 100px;
+}
+.footerContainer .leftFooter .Contacts :nth-last-child(2) {
+  margin-bottom: 100px;
+}
+.footerContainer .leftFooter .Contacts :nth-last-child(3) {
+  margin-bottom: 24px;
+}
+.footerContainer .rightFooter {
+  width: 35%;
+  height: 100%;
+  background-color: #F3593F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footerContainer .rightFooter .textRightFooter {
+  width: 65%;
+  height: auto;
+}
+.footerContainer .rightFooter .textRightFooter p {
+  font-size: 17px;
+  font-weight: 300;
+  color: #F4F7F5;
+  text-align: left;
+  margin-bottom: 48px;
+  line-height: 25px;
+}
+.footerContainer .rightFooter .join {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+  height: 50px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footerContainer .rightFooter .join .email {
+  width: 60%;
+  height: auto;
+  background: transparent;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  float: left;
+  padding-left: 10px;
+}
+.footerContainer .rightFooter .join :focus {
+  color: white;
+}
+.footerContainer .rightFooter .join ::-webkit-input-placeholder {
+  color: white;
+  opacity: 50%;
+  padding-left: 5px;
+  font-size: 17px;
+  font-weight: 200;
+}
+.footerContainer .rightFooter .join ::-moz-placeholder {
+  color: white;
+  opacity: 50%;
+  padding-left: 5px;
+  font-size: 17px;
+  font-weight: 200;
+}
+.footerContainer .rightFooter .join :-ms-input-placeholder {
+  color: white;
+  opacity: 50%;
+  padding-left: 5px;
+  font-size: 17px;
+  font-weight: 200;
+}
+.footerContainer .rightFooter .join ::-ms-input-placeholder {
+  color: white;
+  opacity: 50%;
+  padding-left: 5px;
+  font-size: 17px;
+  font-weight: 200;
+}
+.footerContainer .rightFooter .join ::placeholder {
+  color: white;
+  opacity: 50%;
+  padding-left: 5px;
+  font-size: 17px;
+  font-weight: 200;
+}
+.footerContainer .rightFooter .join .joinButton {
+  width: 30%;
+  color: #F4F7F5;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  float: left;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+}
+.footerContainer .footerLi {
+  font-size: 17px;
+  font-weight: 300;
+  color: #F4F7F5;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.footerContainer .footerLi :hover {
+  color: #F3593F;
+}
+.footerContainer .footerLi a {
+  margin-top: 14px;
+  margin-right: 25px;
+}
+.footerContainer .footerLi :hover * {
+  stroke: #F3593F;
+}
